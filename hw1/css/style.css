@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+#wrapper {
+    width: 800px;
+    border: 1px solid #CFCFCF;
+    box-shadow: 0 0 2px #DEDEDE;
+    margin: 5px auto 50px auto;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font: bold 30px Time new Roman;
+}
+
+p {
+    font: 20px Time new Roman;
+    padding: 10px;
+}
+
+hr {
+    margin: 10px;
+}
+
+.img {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul {
+    margin: 20px;
+}
+
+li {
+    padding: 5px 0;
+    font: 20px Time new Roman;
+}
