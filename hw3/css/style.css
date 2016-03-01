@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Myriad;
+    src: url(../fonts/MyriadProRegular.ttf);
+}
+@font-face {
+    font-family: Opensans;
+    src: url(../fonts/opensans.ttf);
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font: 15px Opensans;
+}
+
+p {
+    font: 14px Opensans;
+    color: #2c2c2c;
+    line-height: 22px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 20px 50px;
+    width: 1060px;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0 0 3px #DBDBDB;
+    background-color: #ffffff;
+}
+
+/* -- HEADER -- */
+header {
+    height: 170px;
+    
+}
+
+.logo {
+    text-decoration: none;
+    font: 50px Myriad;
+    color: #232323;
+}
+
+.menu a {
+    display: inline-block;
+    float: left;
+    padding: 7px 30px;
+    color: #ffffff;
+    border: 1px solid #4A4949;
+}
+
+.menu {
+    background-color: #4A4949;
+    height: 40px;
+    margin: 30px 0 0 0;
+}
+
+.menu a:hover {
+    background-color: #424242;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+/* ============================ */
+
+/* -- Sidebar -- */
+
+.sidebar {
+    width: 240px;
+    float: left;
+}
+
+
+.leftsidebar a {
+    display: block;
+    padding: 12px 25px;
+    font: 14px Opensans;
+}
+
+.leftsidebar li {
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+}
+.leftsidebar li:first-child {
+    border-top: 1px solid #C8C8C8;
+}
+
+.leftsidebar a:hover {
+    background-color: #F9F9F9;
+    padding: 12px 40px;
+    transition: 0.25s padding;
+}
+/* ============================ */
+
+/* -- Content -- */
+
+.content {
+    width: 760px;
+    margin: 0 0 0 300px;
+}
+
+.img {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #C8C8C8;
+}
+
+.content p {
+    padding: 30px 0;
+}
+/* ============================ */
+
+/* -- footer -- */
+footer {
+    height: 100px;
+}
+
+.menufooter {
+    height: 40px;
+    background-color: #E1E1E1;
+}
+
+.menufooter a {
+    display: inline-block;
+    float: left;
+    padding: 8px 30px;
+    margin: 0 30px;
+    color: #2c2c2c;
+    border: 1px solid #E1E1E1;
+}
+
+.menufooter a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    float: right;
+    padding: 11px 30px;
+}
+
+/* ============================ */

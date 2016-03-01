@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    font: 10px Tahoma;
+    color: #e6e6e6;
+}
+
+p {
+    font-family: Tahoma;
+    color: #e6e6e6;
+}
+
+/* ===== Header ===== */
+header {
+    height: 200px;
+}
+
+header a {
+    float: left;
+    height: 200px;
+}
+
+.contact {
+    float: right;
+    padding: 150px 40px 0 0;
+}
+
+.contact p {
+    font-size: 9px;
+}
+/* ===== ===== ===== */
+
+/* ===== Content ===== */
+.content {
+    margin-bottom: 170px;
+    height: 450px;
+}
+
+.country {
+    float: left;
+    margin: 0 15px 50px 15px;
+    width: 260px;
+}
+
+.country img {
+    box-shadow: 3px #090909;
+}
+
+.country p {
+    text-align: center;
+    font-size: 15px;   
+}
+/* ===== ===== ===== */
+
+/* ===== Footer ===== */
+
+footer {
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    line-height: 100px;
+}
