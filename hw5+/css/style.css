@@ -1,0 +1,33 @@
+body {
+	background: #a79f9f;
+}
+
+td, th {
+	height: 40px;
+	border: 5px solid #000;
+}
+
+table {
+	margin: 50px auto;
+	width: 280px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: 6px solid #a79f9f;
+	background: #fff;
+}
+
+.yellow {
+	background: #FFE84C;
+}
+
+.red {
+	background: #FF4F28;
+}
+
+.black {
+	background: #141B18;
+}
+
+.blue {
+	background: #004383;
+}

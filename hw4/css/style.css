@@ -67,6 +67,10 @@ header {
     font-size: 10px;
 }
 
+img {
+	display: block;
+}
+
 /* ===== Content ===== */
 
 .content {
