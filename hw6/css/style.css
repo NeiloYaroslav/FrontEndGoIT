@@ -74,12 +74,14 @@ table {
 	color: #fff;
 }
 
-.password_reg {
+.reg .password_reg {
 	font-size: 12px;
 	color: #bfbfbf;
 	text-decoration: underline;
-	margin: 0 8px 1px 1px;
+	padding: 0px 9px 0px 4px;
 }
+
+
 
 .reg input {
 	width: 111px;
@@ -115,7 +117,7 @@ table {
 .navi a {
 	display: block;
 	float: left;
-	padding: 2px 5px;
+	padding: 3px 4px 0 6px;
 }
 
 .navi img {
@@ -192,10 +194,8 @@ header a {
 	line-height: 10px;
 }
 
-.search div {
-	float: left;
-}
 .search_car {
+	float: left;
 	width: 402px;
 	height: 124px;
 	padding: 5px;
@@ -206,6 +206,9 @@ header a {
 }
 
 .search_tire {
+	float: left;
+	position: relative;
+	overflow: hidden;
 	width: 182px;
 	height: 124px;
 	padding: 5px;
@@ -213,14 +216,48 @@ header a {
 	border: 1px solid #B8B8B9;
 	border-radius: 14px;
 	box-shadow: 5px 5px 5px #A5A5A5;
+	
 }
 
 .search_tire label {
-	display: block;
-	height: 8px;
+	width: 100px;
+	height: 14px;
+}
+
+.search_head {
+	color: #114165;
+	font: bold 10px Arial;
+	line-height: 8px;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
+.search_item {
+	width: 100%;
+	overflow: hidden;
+}
+
+.item {
+	float: left;
+	width: 25%;
+	margin-right: 7px;
+	text-align: right;
+	font: 10px lucida_sans;
+}
+
+.size {
+	float: left;
+	width: 70%;
+	font: 12px arial;
+}
+
+.size option {
+	width: 29px;
 }
 
 .search_disk {
+	float: left;
 	width: 255px;
 	height: 124px;
 	padding: 5px;
@@ -299,8 +336,10 @@ td {
 	height: 18px;
 }
 
-.submit {
+
+.submit .submit_search {
 	text-align: right;
+	float: right;
 }
 
 .submit_search {
@@ -345,7 +384,7 @@ td {
 .left .name {
 	width: 153px;
 	padding-left: 26px;
-	margin: 8px 0 12px 0;
+	margin: 6px 0 13px 0;
 	background: url(../img/list.png) no-repeat;
 	background-size: 20px;
 	background-position: 1px 1px;
@@ -356,6 +395,10 @@ td {
 	font-size: 12px;
 	text-transform: uppercase;
 	box-shadow: 3px 3px 3px #BFBFBF;
+}
+
+.left p {
+	letter-spacing: 0.5px;
 }
 
 .left .main_menu > li > a {
@@ -373,7 +416,7 @@ td {
 }
 
 .sub_menu li a {
-	padding-left: 46px;
+	padding-left: 45px;
 	line-height: 25px;
 	background: url(../img/smalmarker.png) no-repeat;
 	background-position: 35px 6px;
@@ -410,6 +453,11 @@ td {
 	box-shadow: 3px 3px 3px #BFBFBF;
 }
 
+.right p {
+	letter-spacing: 1.2px;
+}
+
+
 .right .main_menu > li > a {
 	display: inline-block;
 	width: 105px;
@@ -426,25 +474,29 @@ td {
 }
 
 .right .main_menu > li {
-	margin-bottom: 9px;
+	margin-bottom: 7px;
 }
 
 
 
 .right label {
-	padding-left: 19px;
+	padding-left: 24px;
 	color: #465961;
 	line-height: 25px;
 }
 
 .right input[type="checkbox"] {
-	margin: 5px 4px;
+	margin: 5px 11px 0px 0px;
 }
+.checkbox_menu li {
+	height: 26px;
+}
+
 
 .right input[type="submit"] {
 	width: 80px;
 	height: 25px;
-	margin: 6px 0 0 24px;
+	margin: 7px 0 0 24px;
 	background: linear-gradient(#1F6585, #0C3357);
 	color: #e5e9ea;
 	border: none;
@@ -457,15 +509,16 @@ td {
 main {
 	width: 526px;
 	margin: 0 auto;
-	padding: 0 0 24px 0;
+	padding: 0 0 21px 0;
 	background: linear-gradient(#E5E7E8, #93A7B0);
 	border-radius: 5px;
 }
 
 figure {
 	display: inline-block;
-	margin: 10px 3px 6px 21px;
+	margin: 10px 5px 7px 20px;
 	text-align: center;
+	
 }
 
 figure .img {
@@ -473,7 +526,7 @@ figure .img {
 	height: 128px;
 	margin-top: 5px;
 	border: 1px solid #A8B3B7;
-	border-radius: 5px;
+	border-radius: 10px;
 	background: #FCFCFC;
 }
 
@@ -484,19 +537,20 @@ figure .img img {
 figure h2 {
 	font-size: 14px;
 	color: #206988;
-	padding: 14px 0 11px 0;
+	padding: 14px 0 11px 6px;
 }
 
 figure h3 {
 	font-size: 13px;
 	color: #1f2528;
-	padding: 3px 0 3px 0;
+	padding: 3px 2px 3px 6px;
+	letter-spacing: -1px;
 }
 
 figcaption {
 	font: bold italic 16px Arial;
 	color: #114165;
-	padding-left: 16px;
+	padding-left: 17px;
 }
 
 .brandlogo {
@@ -542,7 +596,8 @@ footer li:first-child {
 footer p {
 	font: 11px arial;
 	color: #7f4740;
-	padding-top: 8px;
+	padding: 6px 0 0 0px;
+	letter-spacing: -0.15px;
 }
 
 

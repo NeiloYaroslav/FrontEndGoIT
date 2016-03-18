@@ -127,6 +127,7 @@
 				</table>
 				<p class="submit"><input class="submit_search" type="submit" value="поиск..."></p>
 			</div>	
+<!--
 			<div class="search_tire">
 				<form action=""></form>
 					<table>
@@ -171,6 +172,67 @@
 					<p class="submit"><input class="submit_search" type="submit" value="поиск..."></p>
 				</form>
 			</div>
+-->
+			<div class="search_tire">
+				<p class="search_head">Поиск шин</p>
+				<form action="#">
+					<div class="search_item">
+						<p class="item">Размер:</p>
+						<div class="size">
+							<select name="size1" id="size1">
+								<option value="145">145</option>
+								<option value="155">155</option>
+								<option value="165">165</option>
+							</select>
+							/
+							<select name="size2" id="size2">
+								<option value="45">45</option>
+								<option value="55">55</option>
+								<option value="65">65</option>
+							</select>
+						</div>
+					</div>
+					<div class="search_item">
+						<p class="item">R</p>
+						<div class="size">
+							<select name="size3" id="size3">
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+							</select>
+						</div>
+					</div>
+					<div class="search_item">
+						<p class="item">Сезон:</p>
+						<div class="size">
+<!--
+							<p>
+								<label><input type="checkbox" name="summer" id="summer">лето</label>
+							</p>
+							<p>
+								<label><input type="checkbox" name="winter" id="winter">зима</label>
+							</p>
+							<p><label><input type="checkbox" name="all" id="all">всесез</label></p>
+-->
+							<ul>
+								<li>
+									<label><input type="checkbox" name="summer" id="summer">лето</label>
+								</li>
+								<li>
+									<label><input type="checkbox" name="winter" id="winter">зима</label>
+								</li>
+								<li>
+									<label><input type="checkbox" name="all" id="all">всесез</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+						<p class="submit">
+							<input class="submit_search" type="submit" value="поиск...">
+						</p>
+				</form>
+			</div>
+			
 			<div class="search_disk">
 				<div class="dco">
 					<p>ДЦО <br><span class="word">(диаметр центрального отверстия):</span></p>
@@ -235,7 +297,7 @@
 				</div>
 				<ul class="main_menu">
 					<li>
-						<a href="#">Шини</a>
+						<a href="#">Шины</a>
 						<ul class="sub_menu">
 							<li><a href="">Наименование 1</a></li>
 							<li><a href="">Наименование 2</a></li>
