@@ -134,7 +134,7 @@
 }
 
 
-/* ===== Свойства для экранов до 959px ===== */
+/* ===== Свойства для экранов от 768px до 959px ===== */
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
 	
@@ -156,8 +156,10 @@
 	}
 	
 /*	===== SLIDER ===== */
+	
 	.slider__description {
 		width: 55%;
+		padding-left: 5%;
 	}
 	.slider__h1 {
 		font-size: 48px;
@@ -177,8 +179,45 @@
 	}
 	
 	/* ===== ABOUT ===== */
-	
-	
+	.about__box-1 {
+	width: 31%;
+	padding-left: 60px;
+	}
+	.about__box-1 .about__h3 {
+		letter-spacing: -0.2px;
+	}
+	.about__box-2 {
+		width: 31%;
+		padding-left: 60px;
+	}
+	.about__box-2 .about__link--block {
+		margin-right: 0.8%;
+	}
+	.about__box-2 .about__h3 {
+		letter-spacing: -0.3px;
+	}
+	.about__box-3 {
+		width: 31%;
+		padding-left: 60px;
+	}
+	.about__box-3 .about__h3 {
+		letter-spacing: -0.2px;
+	}
+	.about__box-3 .about__link--block {
+		margin-right: -6.2%;
+	}
+	.about__box-1:before {
+		top: 4px;
+		left: 10px;
+	}
+	.about__box-2:before {
+		top: 4px;
+		left: 15px;
+	}
+	.about__box-3:before {
+		top: 4px;
+		left: 15px;
+	}
 	/* ===== BLOG ===== */
 	.blog-box {
 		width: 35%;
@@ -196,14 +235,18 @@
 	/* ===== LOGOS ===== */
 	
 	.logos__box {
-		padding: 0;
+		display: inline-block;
+		margin: 3px 2% 8px 2%;
 	}
 	
 	/* ===== PRODUCTS ===== */
+	
 	.products__box {
-		width: 30%;
-		margin: 0 0 25px 25px;
-		padding: 0;
+		width: 28%;
+		padding: 0 0 0 0;
+	}
+	.products__box--middle {
+		margin: 0 6.9%;
 	}
 	
 	/* ===== FOOTER ===== */
@@ -213,6 +256,7 @@
 	}
 	.design {
 		margin-top: 20px;
+		margin-right: 5%;
 	}
 	.design__p {
 		text-align: center;
@@ -222,7 +266,7 @@
 }
 
 
-/* ===== Свойства для экранов до 767px ===== */
+/* ===== Свойства для экранов от 480px до 767px ===== */
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	
@@ -296,6 +340,7 @@
 	.slider__description {
 		width: 47%;
 		text-align: center;
+		padding: 0 5%;
 	}
 	.slider__description:after {
 		position: absolute;
@@ -347,7 +392,20 @@
 	/* ===== ABOUT ===== */
 	
 	.about__box {
-		width: 86%;
+		width: 100%;
+		padding-left: 50px;
+	}
+	.about__box-1:before {
+		top: 4px;
+		left: 0;
+	}
+	.about__box-2:before {
+		top: 4px;
+		left: 0;
+	}
+	.about__box-3:before {
+		top: 4px;
+		left: 0;
 	}
 	
 	/* ===== BLOG ===== */
@@ -409,7 +467,8 @@
 	}
 	
 	.design {
-		margin-top: 20px;
+		margin: 20px auto 0 auto;
+		
 	}
 	
 }
@@ -521,7 +580,20 @@
 	.about__box {
 		position: relative;
 		padding-left: 45px;
-		width: 86%;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+	.about__box-1:before {
+		top: 4px;
+		left: 0;
+	}
+	.about__box-2:before {
+		top: 4px;
+		left: 0;
+	}
+	.about__box-3:before {
+		top: 4px;
+		left: 0;
 	}
 
 	
@@ -572,5 +644,7 @@
 	.design__p {
 		text-align: center;
 	}
-	
+	.design {
+		margin: 0 auto;
+	}
 }
